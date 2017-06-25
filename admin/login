@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>酒仙网后台</title>
+</head>
+<link rel="stylesheet" href="../public/bs/bootstrap.min.css">
+<script src='../public/js/jquery.min.js'></script>
+<script src='../public/js/bootstrap.min.js'></script>
+<script src='../public/js/docs.min.js'></script>
+<style type="text/css">
+	*{
+		font-family: 微软雅黑;
+
+	}
+	body{
+		background: #F9F9F9;
+	}
+	.login{
+		height: 500px;
+		width: 500px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-left:-250px;
+		margin-top: -250px;
+
+	}
+	.btn-primary {
+		text-align: center;
+	}
+	.panel-title{
+		text-align:center;
+	}
+	.btn-primary{
+	    text-align:center;
+	}
+	.login-btn{
+		text-align: center;
+	}
+</style>
+<body>
+	<div class="login">
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<div class="panel-title">
+					<img src="../public/img/logo.png">
+				</div>
+			</div>
+			<div class="panel-body">
+				<form action="" class="form-group">
+					<label>用户名：</label>
+					<div class="input-group input-group-lg">
+						<span class="input-group-addon">
+							<span>@</span>
+						</span>
+						<input type="text" name="" class="form-control">
+					</div>
+				</form>
+				<form action="" class="form-group">
+					<label>密码：</label>
+					<div class="input-group  input-group-lg">
+						<div class="input-group-addon">
+						@
+						</div>
+						<input type="password" name="" class="form-control">
+					</div>
+				</form>
+				<form action="" class="form-group login-btn">
+					<div class="btn btn-primary btn-lg">登录</div> 
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
